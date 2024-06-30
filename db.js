@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async() => {
     try {
-        await mongoose.connect('mongodb://localhost:27017/role_based_auth', {
+        await mongoose.connect('mongodb+srv://srft12345678:srft12345678@traversymedia.rxkgp.mongodb.net/role_based_auth?retryWrites=true&w=majority', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
